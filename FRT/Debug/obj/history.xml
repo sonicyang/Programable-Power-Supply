@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O0 -std=c99 -c -DSTM32F401VC -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -D__FPU_USED -I..\..\..\workspace\ProgramablePowerSupply\FreeRTOS -I..\..\..\workspace\ProgramablePowerSupply\cmsis_boot -I..\..\..\workspace\ProgramablePowerSupply -I..\..\..\workspace\ProgramablePowerSupply\cmsis_lib\include -I..\..\..\workspace\ProgramablePowerSupply\cmsis_lib -I..\..\..\workspace\ProgramablePowerSupply\FreeRTOS\include -I..\..\..\workspace\ProgramablePowerSupply\FreeRTOS\portable -I..\..\..\workspace -I..\..\..\workspace\ProgramablePowerSupply\cmsis -I..\..\..\workspace\ProgramablePowerSupply\LCD -I..\..\.. -I..\..\..\workspace\ProgramablePowerSupply\FreeRTOS\portable\GCC -I..\..\..\workspace\ProgramablePowerSupply\FreeRTOS\portable\GCC\ARM_CM4F">
+      <target file="heap_3.o" lastModified="1469137a509">
+         <source file="..\..\..\FreeRTOS\portable\MemMang\heap_3.c" lastModified="1444534ee40"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="1469137a0c6">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1457ad87253"/>
+      </target>
+      <target file="tasks.o" lastModified="1469137a064">
+         <source file="..\..\..\FreeRTOS\tasks.c" lastModified="1444a3d8eb0"/>
+      </target>
+      <target file="event_groups.o" lastModified="1469137a3dd">
+         <source file="..\..\..\FreeRTOS\event_groups.c" lastModified="1444534e594"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="14691379cec">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1457b0a89f5"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="1469137a4af">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="1457afbfd9a"/>
+      </target>
+      <target file="croutine.o" lastModified="1469137a362">
+         <source file="..\..\..\FreeRTOS\croutine.c" lastModified="1444534e594"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="1469137a188">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1457ad760ec"/>
+      </target>
+      <target file="printf.o" lastModified="14691379f23">
+         <source file="..\..\..\stdio\printf.c" lastModified="1457febe25b"/>
+      </target>
+      <target file="queue.o" lastModified="1469137a2fd">
+         <source file="..\..\..\FreeRTOS\queue.c" lastModified="14449b3bf28"/>
+      </target>
+      <target file="list.o" lastModified="1469137a11f">
+         <source file="..\..\..\FreeRTOS\list.c" lastModified="1444534e5d2"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="14691379e05">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1457ad86c7a"/>
+      </target>
+      <target file="port.o" lastModified="1469137a263">
+         <source file="..\..\..\FreeRTOS\portable\GCC\ARM_CM4F\port.c" lastModified="1444534ea28"/>
+      </target>
+      <target file="stm32f4xx_dac.o" lastModified="14691379c9d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="1457fa9919f"/>
+      </target>
+      <target file="timers.o" lastModified="14691379ea1">
+         <source file="..\..\..\FreeRTOS\timers.c" lastModified="1457aef1088"/>
+      </target>
+      <target file="syscalls.o" lastModified="1469137a1ed">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="1457b04ed4f"/>
+      </target>
+      <target file="hd44780.o" lastModified="14691379f91">
+         <source file="..\..\..\LCD\hd44780.c" lastModified="145c83fea97"/>
+      </target>
+      <target file="main.o" lastModified="14691379d7c">
+         <source file="..\..\..\main.c" lastModified="1469132c829"/>
+      </target>
+   </processor>
+</history>

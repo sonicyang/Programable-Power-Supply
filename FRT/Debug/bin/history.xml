@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -g -nostartfiles -Map=FRT.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\ProgramablePowerSupply -TC:\CooCox\CoIDE\configuration\ProgramData\ProgramablePowerSupply/arm-gcc-link.ld -g -L..\..\..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.8 2013q4\arm-none-eabi\lib\armv7e-m\fpu -lm -L..\..\..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.8 2013q4\arm-none-eabi\lib\armv7e-m\fpu -lg">
+      <target file="FRT.elf" lastModified="1469137a756">
+         <source file="..\..\..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.8 2013q4\arm-none-eabi\lib\armv7e-m\fpu\libm.a" lastModified="142b9c2aec8"/>
+         <source file="..\..\..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.8 2013q4\arm-none-eabi\lib\armv7e-m\fpu\libg.a" lastModified="142b9c2b2b0"/>
+         <source file="..\obj\stm32f4xx_dac.o" lastModified="14691379c9d"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="14691379cec"/>
+         <source file="..\obj\main.o" lastModified="14691379d7c"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="14691379e05"/>
+         <source file="..\obj\timers.o" lastModified="14691379ea1"/>
+         <source file="..\obj\printf.o" lastModified="14691379f23"/>
+         <source file="..\obj\hd44780.o" lastModified="14691379f91"/>
+         <source file="..\obj\tasks.o" lastModified="1469137a064"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1469137a0c6"/>
+         <source file="..\obj\list.o" lastModified="1469137a11f"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1469137a188"/>
+         <source file="..\obj\syscalls.o" lastModified="1469137a1ed"/>
+         <source file="..\obj\port.o" lastModified="1469137a263"/>
+         <source file="..\obj\queue.o" lastModified="1469137a2fd"/>
+         <source file="..\obj\croutine.o" lastModified="1469137a362"/>
+         <source file="..\obj\event_groups.o" lastModified="1469137a3dd"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="1469137a4af"/>
+         <source file="..\obj\heap_3.o" lastModified="1469137a509"/>
+      </target>
+   </processor>
+</history>
